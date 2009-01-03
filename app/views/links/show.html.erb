@@ -1,0 +1,13 @@
+<p>
+  <b>Title:</b>
+  <%=h @link.title %>
+</p>
+
+<p>
+  <b>Url:</b>
+  <%=h @link.url %>
+</p>
+
+
+<%= link_to 'Edit', edit_link_path(@link) %> |
+<%= link_to 'Back', links_path %>
